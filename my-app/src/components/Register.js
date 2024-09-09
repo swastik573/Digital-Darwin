@@ -1,9 +1,9 @@
-// src/components/Register.js
+
 
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import CryptoJS from 'crypto-js';
-import './Register.css'; // Ensure CSS is imported
+import './Register.css';
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -15,7 +15,7 @@ const Register = () => {
     address: '',
     password: '',
     confirmPassword: '',
-    type: 'user', // Default value
+    type: 'user', 
   });
 
   const navigate = useNavigate();
